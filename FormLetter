@@ -1,0 +1,66 @@
+//----------------------------
+//File Name:   formLetter.cpp
+//Assignment ID: PROG2
+//Author:    dgrant
+//Purpose:  To Learn Coding
+//----------------------------
+
+           #include <iostream>
+           using namespace std;
+           int main()
+           {   
+
+
+               //---------------------------------------------
+               // Declare variables 
+               //---------------------------------------------
+             string Name, // Read Name.
+                    GPA,  // Reads GPA
+                    Hours, // Reads the total amount of hours 
+                    Class, // Reads your classification
+                    HoursNow; // Read HoursNow. 
+               
+               
+
+                cout << endl << "(c) 2017, dgrant Deshon Grant" << endl << endl;
+               
+               //-|---------------------------------------------
+               //-| 1. Read values for inputs. 
+               //-|    1.1 Read first name. 
+               //-|    1.2 Read GPA.
+               //-|    1.3 Read credit hours.
+               //-|    1.4 Read hours taken now.
+               //-|    1.5 Read classification.   
+               //-|---------------------------------------------
+   
+            cout << endl << "Enter Name: "; 
+               cin >> Name; 
+            cout << endl << "Enter GPA: "; 
+               cin >> GPA; 
+            cout << endl << "Hours Earned So Far: "; 
+               cin >> Hours; 
+            cout << endl << "Enter Class: "; 
+               cin >> Class; 
+            cout << endl << "Enter hours that are being taken now: ";
+               cin >> HoursNow;
+               cout << endl << endl << endl; 
+               
+               //-|---------------------------------------------
+               //-| 2. Print required output lines ... 
+               //-|    2.1 print Hello Name.
+               //-|    2.2 Print classification.
+               //-|    .....
+               //-|    2.6 Print endl.  
+               //-|---------------------------------------------
+               
+               cout << "HELLO " << Name << "," << '\n' << '\n'; 
+               cout << "You are now classified as a " << Class << '.';
+               cout << " You have earned " << Hours << " credit hours so far.";
+               cout << '\n' << '\n';
+               cout << "Your GPA is " << GPA << ',' << " and you are now taking " << HoursNow << " credit hours.";    
+               cout << endl << endl << endl; 
+               cout << endl << "(c) 2017, dgrant Deshon Grant" << endl << endl;
+               
+
+               return 0;
+           } //main
